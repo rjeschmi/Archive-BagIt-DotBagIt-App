@@ -1,0 +1,5 @@
+.build
+Archive-BagIt-DotBagIt-App*
+_build
+MYMETA.*
+Build
