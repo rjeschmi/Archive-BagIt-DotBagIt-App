@@ -5,4 +5,4 @@
 
 use Archive::BagIt::DotBagIt::App;
 
-Archive::BagIt::DotBagIt::App->new_with_cmd();
+Archive::BagIt::DotBagIt::App->run();

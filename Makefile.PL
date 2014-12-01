@@ -26,9 +26,9 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "Archive::BagIt::DotBagIt::App",
   "PREREQ_PM" => {
-    "Moo" => 0,
-    "MooX::Cmd" => 0,
-    "MooX::Options" => 0,
+    "App::Cmd::Setup" => 0,
+    "Archive::BagIt::DotBagIt" => 0,
+    "Data::Printer" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -46,13 +46,13 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "App::Cmd::Setup" => 0,
+  "Archive::BagIt::DotBagIt" => 0,
+  "Data::Printer" => 0,
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "Module::Build" => "0.28",
-  "Moo" => 0,
-  "MooX::Cmd" => 0,
-  "MooX::Options" => 0,
   "Test::More" => 0,
   "strict" => 0,
   "warnings" => 0
